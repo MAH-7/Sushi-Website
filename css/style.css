@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+
+@import url(./sections/header.css);
+@import url(./sections/hero.css);
+
+:root {
+  --primary-color: #b1454a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 2px solid blue; */
+}
+
+body {
+  font-family: "Philosopher", sans-serif;
+  background: #fae7b5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 30px;
+}
